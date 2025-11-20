@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b903eca790863e245a5d30b4fb687704, type: 3}
+  m_Name: CollectionQuest(V1)
+  m_EditorClassIdentifier: 
+  questName: Pumpkin mania
+  description: 'I lost 10 pumpkins in town.
+
+    Please find all the pumpkins.
+
+'
+  isCompleted: 0
+  isAbandoned: 0
+  orQuest: 0
+  dialogue:
+  - 'I lost 10 pumpkins in town. Please find all the pumpkins. '
+  - 'Please find all the pumpkins. '
+  compliteDialogue:
+  - Thank you for my pumpkin
+  questItemsList:
+  - ItemData: {fileID: 11400000, guid: 2dc9a6313cfca9a479a254f553efaeca, type: 2}
+    value: 10
+  rewardItem: {fileID: 11400000, guid: f4b640e4c06e7dc4c8f829b29e913dd8, type: 2}

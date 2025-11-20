@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14d60ce18054af249bbc113b8f0b4d9f, type: 3}
+  m_Name: PieRecipe
+  m_EditorClassIdentifier: 
+  ingredients:
+  - {fileID: 11400000, guid: e45bfdc687f65aa4aa090ae657f29449, type: 2}
+  - {fileID: 11400000, guid: 8705eda84986ab447bf785387eb3fbcc, type: 2}
+  - {fileID: 11400000, guid: eb4b75b55edc72946bedf5da1e433bf1, type: 2}
+  result: {fileID: 11400000, guid: 8fff93457400e1a4e80e6bdff027bf8e, type: 2}

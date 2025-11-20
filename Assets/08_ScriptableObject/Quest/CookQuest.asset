@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b903eca790863e245a5d30b4fb687704, type: 3}
+  m_Name: CookQuest
+  m_EditorClassIdentifier: 
+  questName: The beggar
+  description: Bring me cooked food
+  isCompleted: 1
+  isAbandoned: 0
+  orQuest: 1
+  dialogue:
+  - I am very hungry
+  - You just give me pie
+  compliteDialogue:
+  - Thank you!
+  questItemsList:
+  - ItemData: {fileID: 11400000, guid: 4783e1ff1cdfb2741936529031024e14, type: 2}
+    value: 1
+  - ItemData: {fileID: 11400000, guid: 6640e0478b1828a45b038330ac7f357d, type: 2}
+    value: 1
+  - ItemData: {fileID: 11400000, guid: 8ba1fab89c582ba4096e69d021d9570c, type: 2}
+    value: 1
+  - ItemData: {fileID: 11400000, guid: d9d0d098c2e6aa546b9cb8e8b65035b6, type: 2}
+    value: 1
+  - ItemData: {fileID: 11400000, guid: 3c038e6969bf69e488d94363478f79d9, type: 2}
+    value: 1
+  - ItemData: {fileID: 11400000, guid: 17381c25a19be1245a16e0806e517616, type: 2}
+    value: 1
+  - ItemData: {fileID: 11400000, guid: 82883967c63146046adebcda7c9ca02b, type: 2}
+    value: 1
+  - ItemData: {fileID: 11400000, guid: ac7431fba9c3ab5479176687f2ee24a6, type: 2}
+    value: 1
+  - ItemData: {fileID: 11400000, guid: aba3b1a6fe5000749a3969c244a59eaa, type: 2}
+    value: 1
+  - ItemData: {fileID: 11400000, guid: f27e5910d4c754c41b3eb5e1b6ff35ea, type: 2}
+    value: 1
+  - ItemData: {fileID: 11400000, guid: 8fff93457400e1a4e80e6bdff027bf8e, type: 2}
+    value: 1
+  rewardItem: {fileID: 11400000, guid: e69690356cffdee4da1c382da0ad7fd7, type: 2}
